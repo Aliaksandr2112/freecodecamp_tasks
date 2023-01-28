@@ -9,3 +9,4 @@ function isLess(a, b) {
   }
   console.log("privet mir");
   isLess(10, 15);
+  
