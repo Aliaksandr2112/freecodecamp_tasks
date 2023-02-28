@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Program {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        int b;
+        int c;
+        int d;
+        int e;
+        int f;
+        b = a / 1000 % 10;                                                                 //Разбить число на цифры
+        c = a / 100 % 10;
+        d = a / 10 % 10;
+        e = a % 10;
+        f = b + c + d + e;
+        System.out.println(f);
+    }
+}
